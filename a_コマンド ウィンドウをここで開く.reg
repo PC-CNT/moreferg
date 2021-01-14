@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\cmd_here]
+@="コマンド ウィンドウをここで開く"
+"Icon"="C:\\Windows\\system32\\cmd.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\cmd_here\command]
+@="C:\\Windows\\System32\\cmd.exe '%L'"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\cmd_here]
+@="コマンド ウィンドウをここで開く"
+"Icon"="C:\\Windows\\system32\\cmd.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\cmd_here\command]
+@="C:\\Windows\\System32\\cmd.exe '%V'"
